@@ -1,4 +1,4 @@
-docker build -t anoop/signup-web:1.0 .
+docker image build -t anoop/signup-web:1.0 .
 
 docker container run --detach -e ACCEPT_EULA=Y --env-file=..\..\app\db-credentials.env --name signup-db microsoft/mssql-server-windows-express
 docker container run --detach -p 80:80 --env-file=..\..\app\db-credentials.env --name web anoop/signup-web:1.0
