@@ -22,6 +22,7 @@ Ensure that you have setup environment variables for `DOCKER_HOST` and `dockerId
 On Windows, you can run the following in a powershell terminal: 
 
 `$env:DOCKER_HOST='tcp://127.0.0.1:2375'`
+
 `$env:dockerId='anoop'`
 
 ## Strategy
