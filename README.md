@@ -20,8 +20,9 @@ In order to run through these steps, you will need a Windows 10 or Windows Serve
 Ensure that you have setup environment variables for `DOCKER_HOST` and `dockerId`. The value of `dockerId` should be your docker hub handle.
 
 On Windows, you can run the following in a powershell terminal: 
-`$env:DOCKER_HOST='tcp://127.0.0.1:2375`
-`$env:dockerId='anoop`
+
+`$env:DOCKER_HOST='tcp://127.0.0.1:2375'`
+`$env:dockerId='anoop'`
 
 ## Strategy
 The application modernization process will be split into two phases. Phase 1 will concern itself about running the webforms application and the sql server backend as docker containers. The docker related configuration and code can be found under `phase-1/web-1.0`, `phase-1/web-1.1` and `phase-1/web-1.2` folders.
